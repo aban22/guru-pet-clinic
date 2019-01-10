@@ -4,12 +4,14 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <packaging>pom</packaging>
+    <groupId>guru.springframework</groupId>
+    <artifactId>guru-pet-clinic</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
 
-    <modules>
-        <module>guru-pet-clinic-data</module>
-        <module>guru-pet-clinic-web</module>
-    </modules>
+    <name>guru-pet-clinic</name>
+    <description>Course Spring Framework Guru from Udemy. Application Pet Clinic</description>
+
+    <packaging>pom</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -18,12 +20,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>guru.springframework</groupId>
-    <artifactId>guru-pet-clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-
-    <name>guru-pet-clinic</name>
-    <description>Course Spring Framework Guru from Udemy. Application Pet Clinic</description>
+    <modules>
+        <module>guru-pet-clinic-data</module>
+        <module>guru-pet-clinic-web</module>
+    </modules>
 
     <properties>
         <java.version>1.8</java.version>
@@ -37,5 +37,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
