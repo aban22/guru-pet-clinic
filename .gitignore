@@ -85,7 +85,7 @@ local.properties
 # Maven
 ######################
 /log/
-/target/
+**/target/
 
 ######################
 # Gradle
@@ -169,3 +169,4 @@ Training
 Blog
 About
 Press h to open a hovercard with more details.
+guru-pet-clinic-data/target/classes/META-INF/MANIFEST\.MF
