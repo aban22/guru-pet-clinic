@@ -1,5 +1,14 @@
+D:\Develop\repositoriosGit\gitKraken\guru-pet-clinic\guru-pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\services\map\AbstractMapService.java
+D:\Develop\repositoriosGit\gitKraken\guru-pet-clinic\guru-pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\model\Person.java
+D:\Develop\repositoriosGit\gitKraken\guru-pet-clinic\guru-pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\services\CrudService.java
+D:\Develop\repositoriosGit\gitKraken\guru-pet-clinic\guru-pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\model\BaseEntity.java
 D:\Develop\repositoriosGit\gitKraken\guru-pet-clinic\guru-pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\model\Owner.java
 D:\Develop\repositoriosGit\gitKraken\guru-pet-clinic\guru-pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\model\Pet.java
+D:\Develop\repositoriosGit\gitKraken\guru-pet-clinic\guru-pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\services\PetService.java
 D:\Develop\repositoriosGit\gitKraken\guru-pet-clinic\guru-pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\model\PetType.java
-D:\Develop\repositoriosGit\gitKraken\guru-pet-clinic\guru-pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\model\Person.java
+D:\Develop\repositoriosGit\gitKraken\guru-pet-clinic\guru-pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\services\map\PetServiceMap.java
+D:\Develop\repositoriosGit\gitKraken\guru-pet-clinic\guru-pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\services\map\OwnerServiceMap.java
+D:\Develop\repositoriosGit\gitKraken\guru-pet-clinic\guru-pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\services\VetService.java
+D:\Develop\repositoriosGit\gitKraken\guru-pet-clinic\guru-pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\services\map\VetServiceMap.java
+D:\Develop\repositoriosGit\gitKraken\guru-pet-clinic\guru-pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\services\OwnerService.java
 D:\Develop\repositoriosGit\gitKraken\guru-pet-clinic\guru-pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\model\Vet.java
