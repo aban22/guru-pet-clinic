@@ -9,16 +9,14 @@ import org.springframework.stereotype.Service;
 import guru.springframework.sfgpetclinic.model.Vet;
 import guru.springframework.sfgpetclinic.respositories.VetRepository;
 import guru.springframework.sfgpetclinic.services.VetService;
+import lombok.AllArgsConstructor;
 
+@AllArgsConstructor
 @Service
 @Profile("springdatajpa")
 public class VetServiceSDJpa implements VetService {
 
 	private final VetRepository vetRepository;
-	
-	public VetServiceSDJpa(VetRepository vetRepository) {
-		this.vetRepository = vetRepository;
-	}
 	
 	@Override
 	public Set<Vet> findAll() {

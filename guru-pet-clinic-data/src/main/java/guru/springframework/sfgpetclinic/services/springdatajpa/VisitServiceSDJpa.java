@@ -9,16 +9,14 @@ import org.springframework.stereotype.Service;
 import guru.springframework.sfgpetclinic.model.Visit;
 import guru.springframework.sfgpetclinic.respositories.VisitRepository;
 import guru.springframework.sfgpetclinic.services.VisitService;
+import lombok.AllArgsConstructor;
 
+@AllArgsConstructor
 @Service
 @Profile("springdatajpa")
 public class VisitServiceSDJpa implements VisitService {
 
 	private final VisitRepository visitRepository;
-	
-	public VisitServiceSDJpa(VisitRepository visitRepository) {
-		this.visitRepository = visitRepository;
-	}
 	
 	@Override
 	public Set<Visit> findAll() {

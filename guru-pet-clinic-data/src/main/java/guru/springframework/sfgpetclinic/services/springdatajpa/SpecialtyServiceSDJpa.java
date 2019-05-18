@@ -9,16 +9,14 @@ import org.springframework.stereotype.Service;
 import guru.springframework.sfgpetclinic.model.Specialty;
 import guru.springframework.sfgpetclinic.respositories.SpecialtyRepository;
 import guru.springframework.sfgpetclinic.services.SpecialtyService;
+import lombok.AllArgsConstructor;
 
+@AllArgsConstructor
 @Service
 @Profile("springdatajpa")
 public class SpecialtyServiceSDJpa implements SpecialtyService {
 
 	private final SpecialtyRepository specialtyRepository;
-	
-	public SpecialtyServiceSDJpa(SpecialtyRepository specialtyRepository) {
-		this.specialtyRepository = specialtyRepository;
-	}
 	
 	@Override
 	public Set<Specialty> findAll() {
