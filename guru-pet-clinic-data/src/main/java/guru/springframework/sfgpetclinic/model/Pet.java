@@ -12,7 +12,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-import guru.springframework.sfgpetclinic.model.Owner.OwnerBuilder;
+import org.springframework.util.CollectionUtils;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -30,6 +31,17 @@ public class Pet extends BaseEntity {
 
 	private static final long serialVersionUID = 1L;
 
+	public Pet(Long id, String name, PetType petType, Owner owner, LocalDate birthDate, Set<Visit> visits) {
+		super(id);
+		this.name = name;
+		this.petType = petType;
+		this.owner = owner;
+		this.birthDate = birthDate;
+		if(!CollectionUtils.isEmpty(visits)) {
+			this.visits = visits;
+		}
+	}
+	
 	@Column(name = "name")
 	private String name;
 
